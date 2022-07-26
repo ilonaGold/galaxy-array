@@ -1,0 +1,32 @@
+:root {
+    --pink: #fbe6f4ff;
+    --yellow: #fffad1ff;
+    --green: #e1f0e5ff;
+    --blue: #b5caf9ff;
+    --orange: #ff8b3d;
+    --raisin: #2b283aff;
+    --grey: #d4d4d4;
+}
+
+body {
+    background: var(--raisin) url('moon.jpg') center/cover no-repeat;
+    color: var(--orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 2rem;
+    padding: 0 7rem;
+    overflow: hidden;
+}
+
+#title {
+    font-size: 3.75rem;
+    text-shadow: 0px 0px 3px var(--raisin);
+}
+
+#galaxy {
+    width: 100vw;
+    line-break: anywhere;
+    opacity: 0.75;
+}
